@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="mx.ipn.cecyt9.examen1_matadamas_sols_dianamareni_6im7.Activity1">
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:text="Cantidad a convertir en pesos"
+    android:textColor="@android:color/background_dark"
+    android:textSize="18sp"
+    tools:layout_editor_absoluteX="55dp"
+    tools:layout_editor_absoluteY="59dp" />
+
+<EditText
+    android:id="@+id/cant"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_below="@+id/textView2"
+    android:background="@color/colorPrimary"
+    android:ems="10"
+    android:inputType="textPersonName"
+    tools:layout_editor_absoluteX="68dp"
+    tools:layout_editor_absoluteY="105dp" />
+
+<Button
+    android:id="@+id/button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignEnd="@+id/textView2"
+    android:layout_alignRight="@+id/textView2"
+    android:layout_below="@+id/cant"
+    android:layout_marginEnd="36dp"
+    android:background="@android:color/holo_green_dark"
+    android:text="Convertir"
+    tools:layout_editor_absoluteX="125dp"
+    tools:layout_editor_absoluteY="145dp" />
+
+</android.support.constraint.ConstraintLayout>
+
